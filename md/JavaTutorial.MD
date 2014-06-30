@@ -105,7 +105,7 @@ Oracle 從 2012 年 7 月以來，就打算結束對 JDK6 的支持，在 2013 �
 
 另一方面，類似專案會有類似慣例流程，如果能夠提供預設專案及相關慣例設定，對於開發將會有所幫助，這就是 [Maven](http://maven.apache.org/) 後來興起的原因之一，除了提供預設專案及相關慣例設定之外，對於 Java 中程式庫或框架相依性問題，Maven 也提供了集中式貯藏室（Central repository） 解決方案 … 對於相依性管理問題，Ant 也結合了 [Ivy](http://ant.apache.org/ivy/) 來進行解決 …
 
-然而無論是 Ant Ivy、Maven，主要都使用 XML 進行設定，設定繁鎖，而且有較高的學習曲線，以來興趣的 [Gradle](http://www.gradle.org/) 結合了 Ant 與 Maven 的一些好的概念（像是 Task、Repository 等），並使用 Groovy 語言作為腳本設定，在設定上有了極大的簡化，並可以輕易地與 Ant、Maven 進行整合，種種優點吸引了不少開發者，有些重大專案也宣佈改用 Gradle 做為建構工具，像是 Java 領域中著名 ORM（Object-Relational Mapping）框架 [Hibernate](http://www.hibernate.org/) 就在 [Gradle: why?](https://community.jboss.org/wiki/Gradlewhy?_sscc=t) 中宣佈從 Maven 遷移至 Gradle。
+然而無論是 Ant Ivy、Maven，主要都使用 XML 進行設定，設定繁鎖，而且有較高的學習曲線，[Gradle](http://www.gradle.org/) 結合了 Ant 與 Maven 的一些好的概念（像是 Task、Repository 等），並使用 Groovy 語言作為腳本設定，在設定上有了極大的簡化，並可以輕易地與 Ant、Maven 進行整合，種種優點吸引了不少開發者，有些重大專案也宣佈改用 Gradle 做為建構工具，像是 Java 領域中著名 ORM（Object-Relational Mapping）框架 [Hibernate](http://www.hibernate.org/) 就在 [Gradle: why?](https://community.jboss.org/wiki/Gradlewhy?_sscc=t) 中宣佈從 Maven 遷移至 Gradle。
 
 考量課程進行的簡易性，這門課中使用 Gradle 是比較適合的，接下來要介紹的，就是 Gradle 的下載與安裝，你可以如下取得 Gradle 最新版本 1.7 並解壓縮：
 
