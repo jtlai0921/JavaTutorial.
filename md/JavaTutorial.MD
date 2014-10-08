@@ -74,6 +74,7 @@ Oracle 從 2012 年 7 月以來，就打算結束對 JDK6 的支持，在 2013 �
 
 之後，執行以下指令安裝 git：
 
+    $ sudo apt-get update
     $ sudo apt-get install git
 
 安裝完成後，可以使用以下指令下載課程資料：
@@ -632,7 +633,6 @@ Java 標準 API 的容器物件，著重在功能性的定義與實作，少於�
 
     ~$ mkdir Collections
     ~$ cd Collections
-    ~/Collections$ st2 build.gradle
     ~/Collections$ mkdir -p src/main/java
     ~/Collections$ st2 build.gradle
 
@@ -922,7 +922,7 @@ class Bank {
 
 當中是有關於帳戶建立、存款、提款等函式，你會這麼使用：
 
-```
+```java
 public class Main {
     public static void main(String[] args) {
         Account acct = Bank.account("Java", "001", 100);
@@ -2214,7 +2214,7 @@ public class DvdController {
 }
 ```
 
-以上也利用了 Spring 自動注入 `DvdLibraryService`，如下修改之後，`DvdController` 仍維持基本的請求轉發職責，也僅依賴在 `DvdLibraryService` 之上，而 `DvdLibraryService` 只是包括了原先打算寫在 `DvdController` 的邏輯：
+以上也利用了 Spring 自動注入 `DvdLibraryService`，如上修改之後，`DvdController` 仍維持基本的請求轉發職責，也僅依賴在 `DvdLibraryService` 之上，而 `DvdLibraryService` 只是包括了原先打算寫在 `DvdController` 的邏輯：
 
 ```java
 package tw.codedata;
@@ -2400,7 +2400,7 @@ public class HelloTest {
 
 在 Lab 檔案的 exercises/exercise16 中有個 DVDLibrary 目錄，已經事先將練習 14 與練習 15 中一些可重用的程式碼（像是 Dvd.java、DvdDao.java、DvdLibraryService.java 等）與設定檔（像是 build.gradle 等）準備好，不過，`DvdController` 仍是使用 `DvdDao` 程式碼，在將程式重構為運用 `DvdLibraryService` 之前，先來為它寫個測試。
 
-請在 src/test/java/tw/codedata 中建立一個 DvdController.java，如下撰寫程式碼：
+請在 src/test/java/tw/codedata 中建立一個 DvdControllerTest.java，如下撰寫程式碼：
 
 ```java
 package tw.codedata;
@@ -2885,7 +2885,6 @@ public class DvdController {
             @FormParam("director") String director) {
  
         Dvd dvd = getDvdLibraryService().addDvd(title, year, duration, director);
-        System.out.println(dvd.getTitle());
         Map model = new HashMap();
         model.put("dvd", dvd);
         return new Viewable("/success", model);

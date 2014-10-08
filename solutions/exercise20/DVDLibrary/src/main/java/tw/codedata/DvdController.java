@@ -36,7 +36,6 @@ public class DvdController {
             @FormParam("director") String director) {
 
         Dvd dvd = getDvdLibraryService().addDvd(title, year, duration, director);
-        System.out.println(dvd.getTitle());
         Map model = new HashMap();
         model.put("dvd", dvd);
         return new Viewable("/success", model);
