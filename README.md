@@ -8,35 +8,35 @@ Java Tutorial
 你可以在 [Google Play](https://play.google.com/store/books/details?id=LaJbAwAAQBAJ) 或 [Pubu](http://www.pubu.com.tw/ebook/Java-Tutorial-Learn-Java-in-06-00-00-30862) 上，取得本系列的電子書版本。
 
 - Java Tutorial 第一堂
- - [Java Tutorial 第一堂（1）JDK 版本與實作](http://www.codedata.com.tw/java/java-tutorial-the-1st-class-1-jdk-versions-and-implementations/)
- - [Java Tutorial 第一堂（2）準備課程環境](http://www.codedata.com.tw/java/java-tutorial-the-1st-class-2-preparing-course-environment)
- - [Java Tutorial 第一堂（3）哈囉！世界！](http://www.codedata.com.tw/java/java-tutorial-the-1st-class-3-hello-world/)
- - [Java Tutorial 第一堂（4）套件、I/O 與例外](http://www.codedata.com.tw/java/java-tutorial-the-1st-class-4-package-io-exception/)
+ - [Java Tutorial 第一堂（1）JDK 版本與實作](https://openhome.cc/Gossip/CodeData/JavaTutorial/JDK.html)
+ - [Java Tutorial 第一堂（2）準備課程環境](https://openhome.cc/Gossip/CodeData/JavaTutorial/CourseEnv.html)
+ - [Java Tutorial 第一堂（3）哈囉！世界！](https://openhome.cc/Gossip/CodeData/JavaTutorial/HelloWorld.html)
+ - [Java Tutorial 第一堂（4）套件、I/O 與例外](https://openhome.cc/Gossip/CodeData/JavaTutorial/Package-IO-Exception.html)
 
 - Java Tutorial 第二堂
- - [Java Tutorial 第二堂（1）數值與字串型態](http://www.codedata.com.tw/java/java-tutorial-the-2nd-class-1-numeric-types-and-string/)
- - [Java Tutorial 第二堂（2）容器與流程語法](http://www.codedata.com.tw/java/java-tutorial-the-2nd-class-2-container-flow/)
- - [Java Tutorial 第二堂（3）方法、類別與套件](http://www.codedata.com.tw/java/java-tutorial-the-2nd-class-3-method-class-package/)
+ - [Java Tutorial 第二堂（1）數值與字串型態](https://openhome.cc/Gossip/CodeData/JavaTutorial/NumberString.html)
+ - [Java Tutorial 第二堂（2）容器與流程語法](https://openhome.cc/Gossip/CodeData/JavaTutorial/ContainerFlow.html)
+ - [Java Tutorial 第二堂（3）方法、類別與套件](https://openhome.cc/Gossip/CodeData/JavaTutorial/MethodClassPackage.html)
 
 - Java Tutorial 第三堂
- - [Java Tutorial 第三堂（1）IDE 與 Gradle](http://www.codedata.com.tw/java/java-tutorial-the-3rd-class-1-ide-gradle/)
- - [Java Tutorial 第三堂（2）使用 spring-jdbc 存取資料庫](http://www.codedata.com.tw/java/java-tutorial-the-3rd-class-2-spring-jdbc/)
- - [Java Tutorial 第三堂（3）使用 Servlet、JSP 開發 Web 應用程式](http://www.codedata.com.tw/java/java-tutorial-the-3rd-class-3-servlet-jsp/)
+ - [Java Tutorial 第三堂（1）IDE 與 Gradle](https://openhome.cc/Gossip/CodeData/JavaTutorial/IDEGradle.html)
+ - [Java Tutorial 第三堂（2）使用 spring-jdbc 存取資料庫](https://openhome.cc/Gossip/CodeData/JavaTutorial/SpringJdbc.html)
+ - [Java Tutorial 第三堂（3）使用 Servlet、JSP 開發 Web 應用程式](https://openhome.cc/Gossip/CodeData/JavaTutorial/ServletJSP.html)
 
 - Java Tutorial 第四堂
- - [Java Tutorial 第四堂（1）使用 spring-webmvc 框架](http://www.codedata.com.tw/java/java-tutorial-the-4th-class-1-spring-webmvc/)
- - [Java Tutorial 第四堂（2）使用 spring 相依注入](http://www.codedata.com.tw/java/java-tutorial-the-4th-class-2-spring-dependency-injection/)
- - [Java Tutorial 第四堂（3）Hibernate 與 JPA](http://www.codedata.com.tw/java/java-tutorial-the-4th-class-3-hibernate-jpa/)
+ - [Java Tutorial 第四堂（1）使用 spring-webmvc 框架](https://openhome.cc/Gossip/CodeData/JavaTutorial/SpringWebMVC.html)
+ - [Java Tutorial 第四堂（2）使用 spring 相依注入](https://openhome.cc/Gossip/CodeData/JavaTutorial/SpringDI.html)
+ - [Java Tutorial 第四堂（3）Hibernate 與 JPA](https://openhome.cc/Gossip/CodeData/JavaTutorial/HibernateJPA.html)
 
 - Java Tutorial 第五堂
- - [Java Tutorial 第五堂（1）使用 spring-orm 整合 Hibernate](http://www.codedata.com.tw/java/java-tutorial-the-5th-class-1-spring-orm/)
- - [Java Tutorial 第五堂（2）JUnit 與 Gradle](http://www.codedata.com.tw/java/java-tutorial-the-5th-class-2-junit-gradle/)
- - [Java Tutorial 第五堂（3）測試與重構 DvdController](http://www.codedata.com.tw/java/java-tutorial-the-5th-class-3-test-driven/)
+ - [Java Tutorial 第五堂（1）使用 spring-orm 整合 Hibernate](https://openhome.cc/Gossip/CodeData/JavaTutorial/SpringOrm.html)
+ - [Java Tutorial 第五堂（2）JUnit 與 Gradle](https://openhome.cc/Gossip/CodeData/JavaTutorial/JUnitGradle.html)
+ - [Java Tutorial 第五堂（3）測試與重構 DvdController](https://openhome.cc/Gossip/CodeData/JavaTutorial/TestRefactor.html)
 
 - Java Tutorial 第六堂
- - [Java Tutorial 第六堂（1）REST 與 JAX-RS](http://www.codedata.com.tw/java/java-tutorial-the-6th-class-1-rest-jax-rs/)
- - [Java Tutorial 第六堂（2）使用 Jersey 實作 MVC](http://www.codedata.com.tw/java/java-tutorial-the-6th-class-2-jersey-mvc/)
- - [Java Tutorial 第六堂（3）整合 Jersey/Spring/Hibernate](http://www.codedata.com.tw/java/java-tutorial-the-6th-class-3-jersey-spring-hibernate/)
+ - [Java Tutorial 第六堂（1）REST 與 JAX-RS](https://openhome.cc/Gossip/CodeData/JavaTutorial/REST-JAX-RS.html)
+ - [Java Tutorial 第六堂（2）使用 Jersey 實作 MVC](https://openhome.cc/Gossip/CodeData/JavaTutorial/JerseyMVC.html)
+ - [Java Tutorial 第六堂（3）整合 Jersey/Spring/Hibernate](https://openhome.cc/Gossip/CodeData/JavaTutorial/JerseySpringHibernate.html)
 
 ------------
 http://www.codedata.com.tw
